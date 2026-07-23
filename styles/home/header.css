@@ -1,0 +1,45 @@
+.header {
+    width: 62.5vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 2.44vw;;
+    padding: 2.77vh 0;
+
+}
+
+.header__right, .header__left {
+    display: flex;
+    align-items: center;
+}
+
+.header__text {
+    margin-left: 1.35vw;
+    color: #939393;
+}
+
+.header__tel {
+    position: relative;
+    font-size: 16px;
+    color: #999999;
+}
+
+.header__tel::before {
+    content: '';
+    position: absolute;
+    background-image: url(../../src/icon/Tel.svg);
+    background-size: cover;
+    background-position: center;
+    width: 10px;
+    height: 17.5px;
+    left: -16px;
+    top: 50%;
+    transform: translatey(-50%);
+}
+
+.header__search {
+    padding: 0.52vw;
+    background-color: transparent;
+    border: 1px solid var(--border-gray);
+    border-radius: 5px;
+    margin-left: 1.66vw;
+}

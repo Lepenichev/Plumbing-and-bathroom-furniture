@@ -1,0 +1,99 @@
+.offer {
+    width: 62.5vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer__right {
+
+}
+
+.offer__title {
+    font-family: "Gilory", sans-serif;
+    font-weight: 400;
+    width: 33.12vw;
+    margin: 2.39vw 0 3vw;
+    font-size: 3.12vw;
+    line-height: 3.33vw;
+    color: white;
+
+}
+
+.offer__navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 2.55vw;
+    margin-left: 1.82vw;
+    margin-bottom: 6.66vw;
+}
+
+.offer__link {
+    position: relative;
+    color: var(--light-gray);
+}
+
+.offer__link::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: -20px;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid var(--item-orange);
+    border-bottom: 2px solid var(--item-orange);
+    border-radius: 2px;
+    transform: rotate(-45deg);;
+}
+
+.offer__line::after {
+    content: '';
+    position: absolute;
+    background: linear-gradient(to right, #4B4B4B, #262625);
+    width: 19.53vw;
+    height: 1px;
+    left: 0;
+    top: -1.04vw;
+}
+
+.offer__indicators {
+    display: flex;
+    gap: 10px;
+}
+
+.offer__indicator {
+    width: 31px;
+    height: 2px;
+    background-color: #575757;
+}
+
+.offer__left {
+    position: relative;
+}
+
+.offer__image {
+    display: block;
+    width: 24.73vw;
+    object-fit: cover;
+}
+
+.offer__price {
+    position: absolute;
+    border-radius: 2px;
+    padding: 0.78vw;
+    background-color: var(--orange);
+    color: white;
+    top: 15.98vw;
+    left: 6.25vw;
+}
+
+.offer__price::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--orange);
+    border-radius: 2px;
+    left: 4px;
+    top: 4px;
+}

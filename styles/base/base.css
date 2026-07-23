@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.93vw;
+    line-height: 1.85vh;
+    color: #151716;
+    --light-gray: #BEBEBE;
+    --darck-gray: #7B7B7B;
+    --border-gray: #494949;
+    --orange: #FF7028;
+    --text-orange: #FE5B00;
+    --item-orange: #F5702C;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+.background-header-offer {
+ background-image: url(../../src/images/Main-BG.png);
+}
