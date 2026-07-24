@@ -1,0 +1,80 @@
+.intro {
+    background-color: #f6f6f6;
+    padding-bottom: 4.53vw;
+    margin-bottom: 3.9vw;
+}
+
+.intro__container {
+    width: 62.5vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro__left {
+    margin-top: 4.16vw;
+    max-width: 30vw;
+    width: 100%;
+}
+
+.intro__text-top {
+    margin-bottom: 1.3vw;
+    display: flex;
+    align-items: center;
+}
+
+.intro__big-letter {
+    display: inline-block;
+    color: var(--text-orange);
+    font-size: 2.87vw;
+}
+
+.intro__word-orange {
+    color: var(--text-orange);
+}
+
+.intro__text-bottom {
+
+}
+
+.intro__right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.intro__part-crane {
+    width: 8.17vw;
+    margin-bottom: 1.3vw;
+}
+
+.intro__items {
+}
+
+.intro__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.66vw;
+}
+
+.intro__item:not(:last-child) {
+    margin-bottom: 1.56vw;
+}
+
+.intro__item-icon {
+    width: 3.5vw;
+} 
+
+.intro__item-text {
+    color: var(--darck-gray);
+    font-size: 0.78vw;
+    line-height: 1.05vw;
+    max-width: 13.07vw;
+    width: 100%;
+}
+
+.intro__item-header {
+    margin: 0;
+    margin-bottom: 3px;
+    color: #151716;
+}

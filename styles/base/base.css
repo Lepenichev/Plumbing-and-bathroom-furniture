@@ -15,6 +15,19 @@ body {
     --item-orange: #F5702C;
 }
 
+p{
+    margin: 0;
+}
+
+h2 {
+   font-size: 1.66vw;
+   line-height: 1.9vw; 
+}
+
+h1, h2, h3 {
+    font-family: "Gilory", sans-serif;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
