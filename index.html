@@ -12,11 +12,13 @@
     <link rel="stylesheet" href="./styles/home/header.css">
     <link rel="stylesheet" href="./styles/home/offer.css">
     <link rel="stylesheet" href="./styles/home/intro.css">
+    <link rel="stylesheet" href="./styles/home/products.css">
+    <link rel="stylesheet" href="./styles/home/collections.css">
 </head>
 <body>
     <header>
         <div class="background-header-offer">
-            <section class="header">
+            <section class="header container">
                 <div class="header__left">
                     <img class="header__logo" src="./src/icon/Logo.svg" alt="Логотип">
                     <span class="header__text">Сантехника для всех</span>
@@ -29,13 +31,13 @@
                 </div>
             </section>
 
-            <section class="offer">
+            <section class="offer container">
                 <div class="offer__left">
                     <h1 class="offer__title">Сантехника и мебель для ванной комнаты</h1>
                     <nav class="offer__navigation">
-                        <a class="offer__link" href="#">О компании</a>
-                        <a class="offer__link offer__line" href="#">О продукции</a>
-                        <a class="offer__link offer__line" href="#">Каталог товаров</a>
+                        <a class="offer__link arrow-icon" href="#">О компании</a>
+                        <a class="offer__link arrow-icon line" href="#">О продукции</a>
+                        <a class="offer__link arrow-icon line" href="#">Каталог товаров</a>
                     </nav>
                     <div class="offer__indicators">
                         <div class="offer__indicator"></div>
@@ -45,14 +47,14 @@
                 </div>
                 <div class="offer__right">
                     <img class="offer__image" src="./src/images/Mixer.png" alt="Смеситель">
-                    <div class="offer__price">от 4 990 ₽</div>
+                    <div class="offer__price price">от 4 990 ₽</div>
                 </div>
             </section>
         </div>
     </header>
     <main>
         <section class="intro">
-            <div class="intro__container">
+            <div class="intro__container container">
                 <div class="intro__left">
                     <div class="intro__text-top">
                         <span class="intro__big-letter">O</span>
@@ -89,6 +91,72 @@
                                 для потребителя
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="products__container container">
+                <h2 class="products__header">
+                    Наша продукция
+                </h2>
+                <div class="products__items">
+                    <div class="products__item">
+                        <div class="products__item-bottom">
+                            <hr class="products__item-line">
+                            <span class="products__item-text">Смесители</span>
+                        </div>
+                        <img class="products__item-image" src="./src/images/Products-1.png" alt="Смеситель">
+                    </div>
+                    <div class="products__item">
+                        <div class="products__item-bottom">
+                            <hr class="products__item-line">
+                            <span class="products__item-text">Мебель</span>
+                        </div>
+                        <img class="products__item-image" src="./src/images/Products-2.png" alt="Ванная комната">
+                    </div>
+                    <div class="products__item">
+                        <div class="products__item-bottom">
+                            <hr class="products__item-line">
+                            <span class="products__item-text">Душевая программа</span>
+                        </div>
+                        <img class="products__item-image" src="./src/images/Products-3.png" alt="Душевая лейка">
+                    </div>
+                    <div class="products__item">
+                        <div class="products__item-bottom">
+                            <hr class="products__item-line">
+                            <span class="products__item-text">Фаянс</span>
+                        </div>
+                        <img class="products__item-image" src="./src/images/Products-4.png" alt="Встроенный унитаз">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="collections">
+            <div class="collections__container container">
+                <div class="collections__left">
+                    <h2 class="collections__header">
+                        Коллекции
+                    </h2>
+                    <p class="collections__text">
+                        Чувственность и элегантность, пуризм и эксклюзивность,<br> 
+                        а может уют и романтичность? Наши коллекции, 
+                        разработанные лучшими дизайнерами отрасли, помогут 
+                        создать вам именно ту атмосферу ванной комнаты, 
+                        которую вы всегда искали.
+                    </p>
+                    <a class="collections__link arrow-icon line" href="#">
+                        Все коллекции
+                    </a>
+                </div>
+                <div class="collections__right">
+                    <h3 class="collections__label">
+                        Aristo
+                    </h3>
+                    <div class="collections__price price">
+                        от 4 990 ₽
                     </div>
                 </div>
             </div>

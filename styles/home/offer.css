@@ -1,6 +1,4 @@
 .offer {
-    width: 62.5vw;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
@@ -29,29 +27,6 @@
     color: var(--light-gray);
 }
 
-.offer__link::before {
-    content: '';
-    position: absolute;
-    top: 4px;
-    left: -20px;
-    width: 8px;
-    height: 8px;
-    border-right: 2px solid var(--item-orange);
-    border-bottom: 2px solid var(--item-orange);
-    border-radius: 2px;
-    transform: rotate(-45deg);;
-}
-
-.offer__line::after {
-    content: '';
-    position: absolute;
-    background: linear-gradient(to right, #4B4B4B, #262625);
-    width: 19.53vw;
-    height: 1px;
-    left: 0;
-    top: -1.04vw;
-}
-
 .offer__indicators {
     display: flex;
     gap: 10px;
@@ -75,10 +50,6 @@
 
 .offer__price {
     position: absolute;
-    border-radius: 2px;
-    padding: 0.78vw;
-    background-color: var(--orange);
-    color: white;
     top: 15.98vw;
     left: 6.25vw;
 }

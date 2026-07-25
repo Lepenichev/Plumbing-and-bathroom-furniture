@@ -1,0 +1,52 @@
+.collections {
+    margin-bottom: 4.16vw;
+    background-image: url(../../src/images/Collections-BG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.collections__container {
+    display: flex;
+}
+
+.collections__left {
+    width: 24vw;
+    color: var(--light-gray);
+}
+
+.collections__header {
+    margin: 3.49vw 0 2.04vw;
+    font-weight: 400;
+    color: #ffff
+}
+
+.collections__text {
+    margin-bottom: 17.7vw;
+}
+
+.collections__link {
+    margin-left: 1.04vw;
+    position: relative;
+    color: var(--light-gray);
+    font-size: 0.83vw;
+    display: inline-block;
+    margin-bottom: 1.98vw;
+    line-height: 1.25vw;
+}
+
+.collections__right {
+    margin-left: 7.76vw;
+}
+
+.collections__label {
+    margin: 3.94vw 0 6px;
+    text-transform: uppercase;
+    color: #ffff;
+    font-size: 0.93vw;
+    letter-spacing: 2px;
+}
+
+.collections__price {
+    display: inline-block;
+}

@@ -1,0 +1,49 @@
+.products {
+
+}
+
+.products__container {
+    margin-bottom: 5.2vw;
+}
+
+.products__header {
+    margin: 0 0 1.45vw;
+    font-weight: 400;
+}
+
+.products__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products__item {
+    position: relative;
+    width: 14.95vw;
+    height: 18.22vw;
+}
+
+.products__item-bottom {
+    position: absolute;
+    left: 1.19vw;
+    bottom: 1.19vw;
+}
+
+.products__item-line {
+    width: 11.45vw;
+    height: 1px;
+    background-color: #ffff;
+    opacity: 0.2;
+}
+
+.products__item-text {
+    color: white;
+    font-family: "Gilory", sans-serif;
+    font-size: 1.04vw;
+    font-weight: bold;
+}
+
+.products__item-image {
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+}

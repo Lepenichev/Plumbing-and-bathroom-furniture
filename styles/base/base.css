@@ -47,3 +47,38 @@ a, button {
 .background-header-offer {
  background-image: url(../../src/images/Main-BG.png);
 }
+
+.price {
+    border-radius: 2px;
+    padding: 0.78vw;
+    background-color: var(--orange);
+    color: white;
+}
+
+.container {
+    width: 62.5vw;
+    margin: 0 auto;
+}
+
+.line::after {
+    content: '';
+    position: absolute;
+    background: linear-gradient(to right, #4B4B4B, #262625);
+    width: 19.53vw;
+    height: 1px;
+    left: -16px;
+    top: -1.04vw;
+}
+
+.arrow-icon::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: -20px;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid var(--item-orange);
+    border-bottom: 2px solid var(--item-orange);
+    border-radius: 2px;
+    transform: rotate(-45deg);;
+}
