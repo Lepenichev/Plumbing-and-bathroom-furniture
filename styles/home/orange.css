@@ -1,0 +1,26 @@
+.orange {
+    padding-top: 29.37vw;
+    background-image: url(../../src/images/Promo-BG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.orange__bottom {
+    background-color: var(--bottom-orange);
+    padding: 2.18vw 0 2.4vw;
+    text-align: center;
+}
+
+.orange__text {
+    color: white;
+    margin: 0 auto;
+    width: 39.73vw;
+    font-family: "Gilory", sans-serif;
+    font-size: 1.45vw;
+    line-height: 1.87vw;
+}
+
+.orange__big-word {
+    text-transform: uppercase;
+}

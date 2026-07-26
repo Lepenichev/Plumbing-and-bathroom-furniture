@@ -1,0 +1,142 @@
+.footer {
+    background-color: #202122;
+}
+
+.footer__container {
+    padding-top: 3.125vw;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.91vw;
+}
+
+.footer__logo {
+    width: 6.56vw;
+    height: 1.82vw;
+}
+
+.footer__navigations {
+    display: flex;
+    gap: 2.86vw;
+}
+
+.footer__navigations-items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.04vw;
+}
+
+.footer__navigations-item {
+
+}
+
+.footer__link {
+    position: relative;
+    color: var(--light-gray);
+    font-size: 0.83vw;
+    line-height: 1.25vw;
+}
+
+.footer__link--mail {
+    margin-bottom: 1.04vw;
+}
+
+.footer__link--telegram, 
+.footer__link--mail, 
+.footer__link--telephone {
+    margin-left: 0.8vw;
+}
+
+.footer__link--mail::before, 
+.footer__link--telephone::before, 
+.footer__link--telegram::before {
+    content: '';
+    position: absolute;
+    width: 1.04vw;
+    height: 1.04vw;
+    left: -1.5vw;
+}
+
+.footer__link--mail::before {
+    background-image: url(../../src/icon/Mail.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer__link--telephone::before {
+    background-image: url(../../src/icon/Tel-orange.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer__link--telegram::before {
+    background-image: url(../../src/icon/Telegram.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer__ask-questions {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__title {
+    margin: 0 0 1.04vw;
+    color: white;
+    font-size: 0.83vw;
+}
+
+.footer__copyright {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #747474;
+    font-size: 0.625vw;
+    margin-bottom: 1.25vw;
+}
+
+.footer__copyright-firma {
+    margin-right: 1.25vw;
+}
+
+.footer__developed-by {
+    color: inherit;
+    border: 1px solid #494949;
+    border-radius: 2px;
+    padding: 0.41vw 0.625vw;
+}
+
+.footer__line {
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: #484848;
+}
+
+.footer__btn-up {
+    position: relative;
+    display: inline-block;    
+    width: 100%;
+    height: 5vw;
+    background-color: inherit;
+}
+
+.footer__btn-up::before {
+    content: '';
+    position: absolute;
+    width: 1.2vw;
+    height: 1.2vw;
+    border-top: 3px solid #484848;
+    border-right: 3px solid #484848;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}

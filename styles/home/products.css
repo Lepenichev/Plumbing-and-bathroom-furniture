@@ -1,14 +1,9 @@
-.products {
-
-}
-
 .products__container {
     margin-bottom: 5.2vw;
 }
 
 .products__header {
     margin: 0 0 1.45vw;
-    font-weight: 400;
 }
 
 .products__items {

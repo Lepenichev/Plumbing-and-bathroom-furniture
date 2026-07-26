@@ -14,11 +14,15 @@
     <link rel="stylesheet" href="./styles/home/intro.css">
     <link rel="stylesheet" href="./styles/home/products.css">
     <link rel="stylesheet" href="./styles/home/collections.css">
+    <link rel="stylesheet" href="./styles/home/stocks.css">
+    <link rel="stylesheet" href="./styles/home/advantages.css">
+    <link rel="stylesheet" href="./styles/home/orange.css">
+    <link rel="stylesheet" href="./styles/home/footer.css">
 </head>
 <body>
     <header>
         <div class="background-header-offer">
-            <section class="header container">
+            <div class="header container" id="top">
                 <div class="header__left">
                     <img class="header__logo" src="./src/icon/Logo.svg" alt="Логотип">
                     <span class="header__text">Сантехника для всех</span>
@@ -29,9 +33,9 @@
                         <img src="./src/icon/Search.svg" alt="Лупа">
                     </button>
                 </div>
-            </section>
+            </div>
 
-            <section class="offer container">
+            <div class="offer container">
                 <div class="offer__left">
                     <h1 class="offer__title">Сантехника и мебель для ванной комнаты</h1>
                     <nav class="offer__navigation">
@@ -47,9 +51,9 @@
                 </div>
                 <div class="offer__right">
                     <img class="offer__image" src="./src/images/Mixer.png" alt="Смеситель">
-                    <div class="offer__price price">от 4 990 ₽</div>
+                    <div class="offer__price price-btn-big">от 4 990 ₽</div>
                 </div>
-            </section>
+            </div>
         </div>
     </header>
     <main>
@@ -155,12 +159,183 @@
                     <h3 class="collections__label">
                         Aristo
                     </h3>
-                    <div class="collections__price price">
+                    <div class="collections__price price-btn-big">
                         от 4 990 ₽
                     </div>
                 </div>
             </div>
         </section>
+
+        <section class="stocks">
+            <div class="stocks__container container">
+                <h2 class="stocks__header">Акционные товары</h2>
+                <div class="stocks__items">
+                    <figure class="stocks__item">
+                        <div class="stocks__item-top">
+                            <img class="stocks__item-image" src="./src/images/Stocks-1.png" alt="Зеркальный шкаф">
+                            <div class="stocks__item-discount price-btn-small">-15%</div>
+                        </div>
+                        <figcaption class="stocks__item-bottom">
+                            <p class="stocks__item-text">
+                                O-mebel зеркальный шкаф 
+                                со светом Лотос
+                            </p>
+                            <div class="stocks__item-price">
+                                <strong class="stocks__real-price">5 990 ₽</strong>
+                                <del class="stocks__past-price">6 499 ₽</del>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="stocks__item">
+                        <div class="stocks__item-top">
+                            <img class="stocks__item-image" src="./src/images/Stocks-2.png" alt="Смеситель для раковины">
+                        </div>
+                        <figcaption class="stocks__item-bottom">
+                            <p class="stocks__item-text">
+                                Orange Berti M17-021cr
+                                однорычажный смеситель 
+                                для раковины без донного клапана
+                            </p>
+                            <div class="stocks__item-price">
+                                <strong class="stocks__real-price">4 090 ₽</strong>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="stocks__item">
+                        <div class="stocks__item-top">
+                            <img class="stocks__item-image" src="./src/images/Stocks-3.png" alt="Смеситель для ванны">
+                        </div>
+                        <figcaption class="stocks__item-bottom">
+                            <p class="stocks__item-text">
+                                Orange Berti M17-100cr 
+                                однорычажный ванно-душевой 
+                                смеситель
+                            </p>
+                            <div class="stocks__item-price">
+                                <strong class="stocks__real-price">5 490 ₽</strong>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="stocks__item">
+                        <div class="stocks__item-top">
+                            <img class="stocks__item-image" src="./src/images/Stocks-4.png" alt="Ручной душ">
+                            <div class="stocks__item-discount price-btn-small">-12%</div>
+                        </div>
+                        <figcaption class="stocks__item-bottom">
+                            <p class="stocks__item-text">
+                                Ручной душ O-Shower OS05
+                            </p>
+                            <div class="stocks__item-price">
+                                <strong class="stocks__real-price">1 100 ₽</strong>
+                                <del class="stocks__past-price">1 990 ₽</del>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="advantages">
+            <h2 class="advantages__header">
+                Наши преимущества
+            </h2>
+            <div class="advantages__items">
+                <figure class="advantages__item advantages__item--small">
+                    <img class="advantages__icon" src="./src/icon/Refund.svg" alt="Знак рубля и круговые стрелки вокруг него">
+                    <figcaption class="advantages__discription">
+                        <h3 class="advantages__item-title">
+                            Бесплатный возврат
+                        </h3>
+                        <p class="advantages__item-text">
+                            Если товар вам не подходит, 
+                            вы можете вернуть его 
+                            в течении 30 дней.
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure class="advantages__item advantages__item--big">
+                    <img class="advantages__icon" src="./src/icon/Quality.svg" alt="Иконка медальки">
+                    <figcaption class="advantages__discription">
+                        <h3 class="advantages__item-title">
+                            Гарантия 10 лет
+                        </h3>
+                        <p class="advantages__item-text">
+                            Стандарты ISO9001 и двойной контроль 
+                            качества гарантируют долгосрочную 
+                            безупречную работу изделий.
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure class="advantages__item advantages__item--small">
+                    <img class="advantages__icon advantages__icon--small" src="./src/icon/Secure.svg" alt="Иконка щита">
+                    <figcaption class="advantages__discription">
+                        <h3 class="advantages__item-title">
+                            Безопасная оплата
+                        </h3>
+                        <p class="advantages__item-text">
+                            Банковской картой или 
+                            наличными при получении. 
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="orange">
+            <div class="orange__bottom container">
+                <p class="orange__text">
+                    <span class="orange__big-word">Orange</span> — это строгий, тщательно продуманный дизайн 
+                    и подлинные немецкие традиции.
+                </p>
+            </div>
+        </section>
     </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__top">
+                <img class="footer__logo" src="./src/icon/Logo.svg" alt="Логотип">
+                <nav class="footer__navigations">
+                    <ul class="footer__navigations-items">
+                        <li class="footer__navigations-item">
+                            <a class="footer__link arrow-icon" href="">О компании</a>
+                        </li>
+                        <li class="footer__navigations-item">
+                            <a class="footer__link arrow-icon" href="">Сотрудничество</a>
+                        </li>
+                        <li class="footer__navigations-item">
+                            <a class="footer__link arrow-icon" href="">Покупателям</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__navigations-items">
+                        <li class="footer__navigations-item">
+                            <a class="footer__link arrow-icon" href="">Где купить</a>
+                        </li>
+                        <li class="footer__navigations-item">
+                            <a class="footer__link arrow-icon" href="">Сервисное обслуживание</a>
+                        </li>
+                        <li class="footer__navigations-item">
+                            <a class="footer__link arrow-icon" href="">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__ask-questions">
+                    <h3 class="footer__title">Есть вопросы?</h3>
+                    <a class="footer__link footer__link--mail" href="">hello@orangemixers.ru</a>
+                    <a class="footer__link footer__link--telephone" href="tel:+74955432345">+7 (495) 543 23 45</a>
+                </div>
+                <div class="footer__social">
+                    <h3 class="footer__title">Мы в соцсетях</h3>
+                    <a class="footer__link footer__link--telegram" href="">@orange_home</a>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <p class="footer__copyright-firma">&#169 2019 Orange Mixers</p>
+                <a class="footer__developed-by" href="">Разработано в bitberry.ru</a>
+            </div>
+        </div>
+            <hr class="footer__line">
+            <a class="footer__btn-up" href="#top" aria-label="наверх"></a>
+    </footer>
 </body>
 </html>

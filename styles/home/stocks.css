@@ -1,0 +1,66 @@
+.stocks__container {
+    margin-bottom: 4.16vw;
+}
+
+.stocks__header {
+    margin: 0 0 1.04vw;
+}
+
+.stocks__items {
+    display: flex;
+    width: 100%;
+    border: 1px solid #ececec;
+}
+
+.stocks__item {
+    margin: 0;
+    padding: 0.62vw 0.62vw 1.25vw 1.04vw;
+    max-width: 15.625vw;
+    width: 100%;
+}
+
+.stocks__item:not(:last-child) {
+    border-right: 1px solid #ececec;
+}
+
+.stocks__item-top {
+    margin-bottom: 1.04vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.stocks__item-image {
+    margin-top: 0.62vw;
+    width: 9.37vw;
+    object-fit: cover;
+}
+
+.stocks__item-discount {
+    display: inline-block;
+}
+
+.stocks__item-bottom {
+    min-height: 5.10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stocks__item-text {
+    width: 13.5vw;
+    font-size: 0.83vw;
+    line-height: 1.14vw;
+}
+
+.stocks__real-price {
+    margin-left: 0.46vw;
+    font-size: 1.04vw;
+    line-height: 1.04vw;
+}
+
+.stocks__past-price {
+    font-size: 0.83vw;
+    line-height: 0.83vw;
+    color: var(--pice-gray);
+}

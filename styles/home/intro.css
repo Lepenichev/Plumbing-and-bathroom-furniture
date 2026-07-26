@@ -1,5 +1,5 @@
 .intro {
-    background-color: #f6f6f6;
+    background-color: var(--bg-gray);
     padding-bottom: 4.53vw;
     margin-bottom: 3.9vw;
 }

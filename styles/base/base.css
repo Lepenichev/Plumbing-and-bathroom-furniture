@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -10,9 +14,12 @@ body {
     --light-gray: #BEBEBE;
     --darck-gray: #7B7B7B;
     --border-gray: #494949;
+    --bg-gray: #F6F6F6;
+    --pice-gray: #A5A5A5;
     --orange: #FF7028;
     --text-orange: #FE5B00;
     --item-orange: #F5702C;
+    --bottom-orange: #F6761A;
 }
 
 p{
@@ -21,7 +28,8 @@ p{
 
 h2 {
    font-size: 1.66vw;
-   line-height: 1.9vw; 
+   line-height: 1.9vw;
+   font-weight: 400; 
 }
 
 h1, h2, h3 {
@@ -48,7 +56,18 @@ a, button {
  background-image: url(../../src/images/Main-BG.png);
 }
 
-.price {
+.price-btn-small {
+    font-size: 0.83vw;
+    line-height: 1.04vw;
+    border-radius: 2px;
+    padding: 0.41vw 0.57vw;
+    background-color: var(--orange);
+    color: white;
+}
+
+.price-btn-big {
+    font-size: 1.25vw;
+    font-weight: bold;
     border-radius: 2px;
     padding: 0.78vw;
     background-color: var(--orange);
