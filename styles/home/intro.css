@@ -24,15 +24,11 @@
 .intro__big-letter {
     display: inline-block;
     color: var(--text-orange);
-    font-size: 2.87vw;
+    font-size: 2.5em;
 }
 
 .intro__word-orange {
     color: var(--text-orange);
-}
-
-.intro__text-bottom {
-
 }
 
 .intro__right {
@@ -65,14 +61,71 @@
 
 .intro__item-text {
     color: var(--darck-gray);
-    font-size: 0.78vw;
-    line-height: 1.05vw;
+    font-size: 0.83em;
+    line-height: 1.3em;
     max-width: 13.07vw;
     width: 100%;
 }
 
 .intro__item-header {
+    font-size: 1.1em;
+    white-space: nowrap;
     margin: 0;
     margin-bottom: 3px;
     color: #151716;
+}
+
+@media (max-width: 1524px) {
+    .intro__big-letter {
+        height: 100px;
+    }
+}
+
+@media (max-width: 1060px) {
+    .intro__right {
+        margin-top: 4.01vw;
+    }
+
+    .intro__part-crane {
+        display: none;
+    }
+
+    .intro__item-header {
+        white-space: unset;
+    }
+}
+
+@media (max-width: 770px) {
+    .intro__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro__big-letter {
+        height: unset;
+    }
+
+    .intro__left {
+        max-width: 100vw;
+    }
+
+    .intro__right {
+        width: 100%;
+    }
+
+    .intro__items {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .intro__item-text {
+        max-width: 29.07vw;
+    }
+}
+
+@media (max-width: 467px) {
+    .intro__big-letter {
+        height: 80px;
+    }
 }

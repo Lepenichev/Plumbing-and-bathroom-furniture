@@ -18,7 +18,7 @@
 
 .header__tel {
     position: relative;
-    font-size: 16px;
+    font-size: 0.9em;
     color: #999999;
 }
 
@@ -41,4 +41,14 @@
     border: 1px solid var(--border-gray);
     border-radius: 5px;
     margin-left: 1.66vw;
+}
+
+@media (max-width: 700px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .header__right {
+        align-self: self-end;
+    }
 }

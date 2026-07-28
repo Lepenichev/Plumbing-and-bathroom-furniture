@@ -42,3 +42,18 @@
     width: inherit;
     height: inherit;
 }
+
+@media (max-width: 700px) {
+    .products__item {
+        width: 18.95vw;
+        height: 23.22vw;
+    }
+
+    .products__item-text {
+        font-size: 1.6vw;
+    }
+
+    .products__header {
+        margin: 0 0 6vw;
+    }
+}

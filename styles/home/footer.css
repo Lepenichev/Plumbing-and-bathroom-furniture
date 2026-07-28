@@ -140,3 +140,62 @@
     top: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
 }
+
+@media (max-width: 800px) {
+    .footer__link {
+        font-size: 1.7vw;
+    }
+
+    .footer__top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__logo {
+        width: 13.56vw;
+        height: 7.82vw;
+        align-self: flex-start;
+    }
+
+    .footer__navigations {
+        width: 100%;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+
+    .footer__title {
+        font-size: 1.83vw;
+    }
+
+    .footer__ask-questions {
+        align-self: self-start;
+        gap: 5px;
+        margin-bottom: 30px;
+    }
+
+    .footer__social {
+        align-self: flex-start;
+    }
+
+    .footer__link--telegram, 
+    .footer__link--mail, 
+    .footer__link--telephone {
+        margin-left: 2.8vw;
+    }
+
+    .footer__link--mail::before, 
+    .footer__link--telephone::before, 
+    .footer__link--telegram::before {
+        width: 1.5vw;
+        height: 1.5vw;
+        left: -2.5vw;
+    }
+
+    .footer__link--telegram::before {
+        top: 6px;
+    }
+
+    .footer__copyright {
+        font-size: 1.9vw;
+    }
+}

@@ -19,7 +19,7 @@
     flex-direction: column;
     gap: 2.55vw;
     margin-left: 1.82vw;
-    margin-bottom: 6.66vw;
+    margin-bottom: 4.66vw;
 }
 
 .offer__link {
@@ -63,4 +63,35 @@
     border-radius: 2px;
     left: 4px;
     top: 4px;
+}
+
+@media (max-width: 1200px) {
+    .offer__indicator {
+        display: none;
+    }
+}
+
+@media (max-width: 1060px) {
+    .offer__right {
+        display: none;
+    }
+
+    .offer__title {
+        font-size: 3.35em;
+        line-height: 64px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 870px) {
+    .offer__navigation {
+        margin-left: 2.82vw;
+    }
+}
+
+@media (max-width: 700px) {
+    .offer__title {
+        font-size: 3em;
+        line-height: 44px;
+    }
 }

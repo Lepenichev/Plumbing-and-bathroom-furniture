@@ -8,8 +8,8 @@ body {
     font-family: "PT Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 0.93vw;
-    line-height: 1.85vh;
+    font-size: clamp(14px, 1.5vw, 18px);
+    line-height: 1.5;
     color: #151716;
     --light-gray: #BEBEBE;
     --darck-gray: #7B7B7B;
@@ -27,7 +27,7 @@ p{
 }
 
 h2 {
-   font-size: 1.66vw;
+   font-size: 1.8em;
    line-height: 1.9vw;
    font-weight: 400; 
 }
@@ -66,7 +66,7 @@ a, button {
 }
 
 .price-btn-big {
-    font-size: 1.25vw;
+    font-size: 1.33em;
     font-weight: bold;
     border-radius: 2px;
     padding: 0.78vw;
@@ -77,6 +77,12 @@ a, button {
 .container {
     width: 62.5vw;
     margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+    .container {
+        width: 76vw;
+    }
 }
 
 .line::after {
